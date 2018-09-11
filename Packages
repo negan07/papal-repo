@@ -1,24 +1,24 @@
 Package: luci-app-sqm
-Version: 2.0.0-15-git-762e1dd
+Version: 2.0.0-18-git-347f803
 Depends: libc, lua, luci-base, sqm-scripts
 License: GPLv2
 Section: luci
 Architecture: all
-Installed-Size: 10226
-Filename: luci-app-sqm_2.0.0-15-git-762e1dd_all.ipk
-Size: 11190
-SHA256sum: db9504f49eb66514f2309cf46c9189bb4b1081a327f298bd922283dc6964802d
+Installed-Size: 10554
+Filename: luci-app-sqm_2.0.0-18-git-347f803_all.ipk
+Size: 11485
+SHA256sum: 0db022b8d20778a1d81466a73df3a561e6b4a53286805b100a7e02dd32c584e5
 Description:  Luci interface for the SQM scripts queue management configuration package.
 
 Package: sqm-scripts
-Version: 2.0.0-15-git-762e1dd
+Version: 2.0.0-18-git-347f803
 Depends: libc, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
 License: GPLv2
 Section: net
 Architecture: all
-Installed-Size: 23201
-Filename: sqm-scripts_2.0.0-15-git-762e1dd_all.ipk
-Size: 24042
-SHA256sum: 86ed854b0ffced0f01179cfd4219dce74f6eb480c0b07fcb941469684dc7d8b6
+Installed-Size: 23613
+Filename: sqm-scripts_2.0.0-18-git-347f803_all.ipk
+Size: 24411
+SHA256sum: 82e9935c871b4521ef53a7002528492309c043e33532d35bb3bdb8ceac2a7c2c
 Description:  A set of scripts that does simple SQM configuration.
 
