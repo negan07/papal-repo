@@ -34,12 +34,9 @@ These are enhanced versions of the standard OpenWRT SQM packages, developed and 
 - Some complicated but important qdisc-specific settings are now simply configurable within the GUI. This includes CAKE's per-host fairness and ACK filter settings.
 - Link Layer adaptation can now explicitly set framing compensation (ATM/PTM), MPU and packet overhead, which are applied generally across all qdiscs. Users can also choose to import predefined adaptation settings (e.g. "DOCSIS Cable", "ADSL pppoe-vcmux").
 
-**CAUTION:**
+**NOTE:**
 When installed, these packages (versioned 2.x.x) will upgrade the standard packages (versioned 1.x.x) and migrate an existing SQM config file to a newer schema. **Before installing these packages, make a backup of your existing SQM configuration:**
 ```
 cp /etc/config/sqm /etc/config/sqm-v1-backup
 ```
-
-
-
-
+The backup can be easily restored if you revert to using the stock/legacy `sqm-scripts` packages.
