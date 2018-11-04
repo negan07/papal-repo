@@ -12,17 +12,17 @@ SHA256sum: 0db022b8d20778a1d81466a73df3a561e6b4a53286805b100a7e02dd32c584e5
 Description:  Luci interface for the SQM scripts queue management configuration package.
 
 Package: speedtest
-Version: 0.9-3
+Version: 0.9-4
 Depends: libc, netperf
 Source: package/speedtest
 License: GPL-2.0
 Section: net
 Maintainer: Tony Ambardar <itugrok@yahoo.com>, Rich Brown <rich.brown@blueberryhillsoftware.com>
 Architecture: all
-Installed-Size: 3908
-Filename: speedtest_0.9-3_all.ipk
-Size: 4738
-SHA256sum: e1b033ac5ab5925499d805ae11d0138717eb05dd35813c7edf2a3b739b0dcced
+Installed-Size: 4083
+Filename: speedtest_0.9-4_all.ipk
+Size: 4904
+SHA256sum: 4164943c6e6d6ed204cfe481f3f396f1e5b4e2933c5101a5a7a0a535542a0200
 Description:  Script to measure the performance of your network and router.
  
  Please see https://github.com/openwrt/packages/blob/master/net/speedtest/files/README.md for further information.
